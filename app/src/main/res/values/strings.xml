@@ -34,9 +34,9 @@
     <string name="subscription_change_failed">Could not change subscription</string>
     <string name="subscription_update_failed">Could not update subscription</string>
     <string name="show_info">Show info</string>
-    <string name="tab_subscriptions">Subscriptions</string>
-    <string name="tab_bookmarks">Bookmarked Playlists</string>
-    <string name="tab_bookmarks_short">Playlists</string>
+    <string name="tab_subscriptions">Langganan</string>
+    <string name="tab_bookmarks">Playlist Tersimpan</string>
+    <string name="tab_bookmarks_short">Playlist</string>
     <string name="tab_choose">Choose Tab</string>
     <string name="controls_background_title">Background</string>
     <string name="controls_popup_title">Popup</string>
@@ -66,8 +66,8 @@
     <string name="notification_actions_summary">Edit each notification action below by tapping on it. Select up to three of them to be shown in the compact notification by using the checkboxes on the right.</string>
     <string name="notification_actions_summary_android13">Edit each notification action below by tapping on it. The first three actions (play/pause, previous and next) are set by the system and cannot be customized.</string>
     <string name="notification_actions_at_most_three">You can select at most three actions to show in the compact notification!</string>
-    <string name="notification_action_repeat">Repeat</string>
-    <string name="notification_action_shuffle">Shuffle</string>
+    <string name="notification_action_repeat">Ulang</string>
+    <string name="notification_action_shuffle">Acak</string>
     <string name="notification_action_buffering">Buffering</string>
     <string name="notification_action_nothing">Nothing</string>
     <string name="notification_colorize_title">Colorize notification</string>
@@ -177,7 +177,7 @@
     <string name="error_report_title">Error report</string>
     <string name="all">All</string>
     <string name="channels">Channels</string>
-    <string name="playlists">Playlists</string>
+    <string name="playlists">Playlist</string>
     <string name="videos_string">Videos</string>
     <string name="tracks">Tracks</string>
     <string name="users">Users</string>
@@ -190,7 +190,7 @@
     <string name="best_resolution">Best resolution</string>
     <string name="undo">Undo</string>
     <string name="file_deleted">File deleted</string>
-    <string name="play_all">Play All</string>
+    <string name="play_all">Puter Semua</string>
     <string name="always">Always</string>
     <string name="just_once">Just Once</string>
     <string name="file">File</string>
@@ -333,7 +333,7 @@
     </plurals>
     <!-- Missions -->
     <string name="start">Start</string>
-    <string name="pause">Pause</string>
+    <string name="pause">Jeda</string>
     <string name="create">Create</string>
     <string name="delete">Delete</string>
     <string name="delete_file">Delete file</string>
@@ -429,8 +429,8 @@
     <string name="most_liked">Most liked</string>
     <string name="conferences">Conferences</string>
     <!-- Play Queue -->
-    <string name="title_activity_play_queue">Play queue</string>
-    <string name="play_queue_remove">Remove</string>
+    <string name="title_activity_play_queue">Antrean</string>
+    <string name="play_queue_remove">Hapus</string>
     <string name="play_queue_stream_detail">Details</string>
     <string name="play_queue_audio_settings">Audio Settings</string>
     <string name="play_queue_audio_track">Audio: %s</string>
@@ -445,21 +445,21 @@
     <string name="start_here_on_popup">Start playing in a popup</string>
     <string name="loading_stream_details">Loading stream details…</string>
     <!-- Drawer -->
-    <string name="drawer_open">Open Drawer</string>
-    <string name="drawer_close">Close Drawer</string>
+    <string name="drawer_open">Buka Menu</string>
+    <string name="drawer_close">Tutup Menu</string>
     <!-- Preferred player -->
     <string name="preferred_open_action_settings_title">Preferred \'open\' action</string>
     <string name="preferred_open_action_settings_summary">Default action when opening content — %s</string>
-    <string name="video_player">Video player</string>
-    <string name="background_player">Background player</string>
-    <string name="popup_player">Popup player</string>
+    <string name="video_player">Pemutar Video</string>
+    <string name="background_player">Puter di Belakang</string>
+    <string name="popup_player">Mode Popup</string>
     <string name="always_ask_open_action">Always ask</string>
     <string name="preferred_player_fetcher_notification_title">Getting info…</string>
     <string name="preferred_player_fetcher_notification_message">"Loading requested content"</string>
     <!-- Local Playlist -->
-    <string name="create_playlist">New Playlist</string>
+    <string name="create_playlist">Bikin Playlist</string>
     <string name="duplicate_in_playlist">The playlists that are grayed out already contain this item.</string>
-    <string name="rename_playlist">Rename</string>
+    <string name="rename_playlist">Ganti Nama</string>
     <string name="name">Name</string>
     <string name="add_to_playlist">Add to playlist</string>
     <string name="processing_may_take_a_moment">Processing… May take a moment</string>
@@ -476,11 +476,11 @@
     <string name="playlist_thumbnail_change_success">Playlist thumbnail changed.</string>
     <string name="playlist_no_uploader">Auto-generated (no uploader found)</string>
     <!-- Players -->
-    <string name="caption_none">No Captions</string>
-    <string name="resize_fit">Fit</string>
-    <string name="resize_fill">Fill</string>
-    <string name="resize_zoom">Zoom</string>
-    <string name="caption_auto_generated">Auto-generated</string>
+    <string name="caption_none">Tanpa Teks</string>
+    <string name="resize_fit">Pas Layar</string>
+    <string name="resize_fill">Penuhin Layar</string>
+    <string name="resize_zoom">Gedein</string>
+    <string name="caption_auto_generated">Otomatis</string>
     <!-- Caption Settings -->
     <string name="caption_setting_title">Captions</string>
     <string name="caption_setting_description">Modify player caption text scale and background styles. Requires app restart to take effect</string>
@@ -541,13 +541,13 @@
     <string name="import_soundcloud_instructions_hint">yourID, soundcloud.com/yourid</string>
     <string name="import_network_expensive_warning">Keep in mind this operation can be network expensive.\n\nDo you want to continue?</string>
     <!-- Playback Parameters -->
-    <string name="playback_speed_control">Playback Speed Controls</string>
+    <string name="playback_speed_control">Atur Kecepatan</string>
     <string name="playback_tempo">Tempo</string>
     <string name="playback_pitch">Pitch</string>
     <string name="unhook_checkbox">Unhook (may cause distortion)</string>
     <string name="skip_silence_checkbox">Fast-forward during silence</string>
-    <string name="playback_step">Step</string>
-    <string name="playback_reset">Reset</string>
+    <string name="playback_step">Loncat</string>
+    <string name="playback_reset">Mulai Ulang</string>
     <string name="percent">Percent</string>
     <string name="semitone">Semitone</string>
     <!-- GDPR dialog -->
@@ -613,7 +613,7 @@
     <string name="app_update_available_notification_text">Tap to download %s</string>
     <string name="missions_header_finished">Finished</string>
     <string name="missions_header_pending">Pending</string>
-    <string name="paused">paused</string>
+    <string name="paused">dijeda</string>
     <string name="queued">queued</string>
     <string name="post_processing">post-processing</string>
     <string name="recovering">recovering</string>
@@ -853,13 +853,13 @@
     <string name="channel_tab_about">About</string>
     <string name="show_channel_tabs">Channel tabs</string>
     <string name="show_channel_tabs_summary">What tabs are shown on the channel pages</string>
-    <string name="open_play_queue">Open play queue</string>
-    <string name="toggle_fullscreen">Toggle fullscreen</string>
+    <string name="open_play_queue">Buka Antrean</string>
+    <string name="toggle_fullscreen">Layar Penuh</string>
     <string name="toggle_screen_orientation">Toggle screen orientation</string>
     <string name="previous_stream">Previous stream</string>
     <string name="next_stream">Next stream</string>
-    <string name="play">Play</string>
-    <string name="replay">Replay</string>
+    <string name="play">Puter</string>
+    <string name="replay">Puter Ulang</string>
     <string name="more_options">More options</string>
     <string name="duration">Duration</string>
     <string name="rewind">Rewind</string>
