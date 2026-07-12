@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OpeningTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/dark_youtube_primary_color</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_w_letter</item>
+        <item name="postSplashScreenTheme">@style/BlackTheme</item>
+    </style>
+</resources>

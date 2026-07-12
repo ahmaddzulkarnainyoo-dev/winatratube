@@ -229,6 +229,7 @@ dependencies {
     implementation(libs.androidx.cardview)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core)
+    implementation(libs.androidx.splashscreen)
     implementation(libs.androidx.documentfile)
     implementation(libs.androidx.fragment)
     implementation(libs.androidx.lifecycle.livedata)
