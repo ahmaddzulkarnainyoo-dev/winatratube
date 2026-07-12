@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_youtube_primary_color">
+
+    <!-- Glow effect (paling bawah di z-order) -->
+    <ImageView
+        android:id="@+id/splash_glow"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:alpha="0"
+        android:src="@drawable/splash_glow"
+        android:contentDescription="@null" />
+
+    <!-- Icon W (di atas glow) -->
+    <ImageView
+        android:id="@+id/splash_icon_w"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:alpha="0"
+        android:src="@drawable/splash_w_letter"
+        android:contentDescription="@string/app_name" />
+
+    <!-- Title "WINATRATUBE" -->
+    <TextView
+        android:id="@+id/splash_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="124dp"
+        android:alpha="0"
+        android:text="WINATRATUBE"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.05" />
+
+    <!-- Subtitle "Dikembangkan oleh Winatra" -->
+    <TextView
+        android:id="@+id/splash_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="160dp"
+        android:alpha="0"
+        android:text="Dikembangkan oleh Winatra"
+        android:textColor="#B3FFFFFF"
+        android:textSize="13sp" />
+
+</FrameLayout>
