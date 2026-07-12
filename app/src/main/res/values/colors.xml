@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <color name="ic_launcher_background">#37474F</color>
 <resources>
+
+    <color name="ic_launcher_background">#37474F</color>
 
     <color name="contrastColor">@color/black</color>
     <color name="defaultIconTint">@color/black</color>
