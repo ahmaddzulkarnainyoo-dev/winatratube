@@ -159,7 +159,7 @@ class NewVersionWorker(
     companion object {
         private val DEBUG = MainActivity.DEBUG
         private val TAG = NewVersionWorker::class.java.simpleName
-        private const val NEWPIPE_API_URL = "https://newpipe.net/api/data.json"
+        private const val NEWPIPE_API_URL = "https://raw.githubusercontent.com/ahmaddzulkarnainyoo-dev/winatratube/main/version.json"
         private const val IS_MANUAL = "isManual"
 
         /**
@@ -169,8 +169,7 @@ class NewVersionWorker(
          * <br></br>
          * Following conditions need to be met, before data is requested from the server:
          *
-         *  *  The app is signed with the correct signing key (by TeamNewPipe / schabi).
-         * If the signing key differs from the one used upstream, the update cannot be installed.
+         *  *  The app is a Winatratube release build (isReleaseApk must be true).
          *  * The user enabled searching for and notifying about updates in the settings.
          *  * The app did not recently check for updates.
          * We do not want to make unnecessary connections and DOS our servers.
