@@ -1,11 +1,13 @@
 package org.schabi.newpipe.about
 
+import android.app.AlertDialog
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageView
 import androidx.annotation.StringRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -70,7 +72,22 @@ class AboutActivity : AppCompatActivity() {
             FragmentAboutBinding.inflate(inflater, container, false).apply {
                 aboutAppVersion.text = BuildConfig.VERSION_NAME
                 aboutGithubLink.openLink(R.string.github_url)
-                aboutDonationLink.openLink(R.string.donation_url)
+                aboutDonationLink.setOnClickListener {
+                    val qrisImage = ImageView(requireContext())
+                    qrisImage.setImageResource(R.drawable.qris_code)
+                    qrisImage.layoutParams = ViewGroup.LayoutParams(
+                        ViewGroup.LayoutParams.MATCH_PARENT,
+                        ViewGroup.LayoutParams.WRAP_CONTENT
+                    )
+                    qrisImage.adjustViewBounds = true
+                    qrisImage.setPadding(48, 48, 48, 48)
+
+                    AlertDialog.Builder(requireContext())
+                        .setTitle("Scan untuk Donasi")
+                        .setView(qrisImage)
+                        .setPositiveButton("Tutup", null)
+                        .show()
+                }
                 aboutWebsiteLink.openLink(R.string.website_url)
                 aboutPrivacyPolicyLink.openLink(R.string.privacy_policy_url)
                 faqLink.openLink(R.string.faq_url)
