@@ -15,14 +15,14 @@ import android.os.Handler
 import android.os.Looper
 import android.view.animation.AccelerateDecelerateInterpolator
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.splashscreen.SplashScreen
+import androidx.core.splashscreen.installSplashScreen
 import org.schabi.newpipe.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         // Install SplashScreen API BEFORE super.onCreate()
-        SplashScreen.installSplashScreen(this)
+        installSplashScreen()
 
         super.onCreate(savedInstanceState)
 
